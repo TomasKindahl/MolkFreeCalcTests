@@ -184,8 +184,8 @@ namespace MolkFreeCalc
                 case "√x": SetX(Math.Sqrt(X)); break;
                 case "log x": SetX(Math.Log10(X)); break;
                 case "ln x": SetX(Math.Log(X)); break;
-                case "10ˣ": DropSetX(Math.Pow(10, X)); break;
-                case "eˣ": DropSetX(Math.Exp(X)); break;
+                case "10ˣ": SetX(Math.Pow(10, X)); break;
+                case "eˣ": SetX(Math.Exp(X)); break;
 
                 // Trigonometry:
                 case "sin": SetX(Math.Sin(X)); break;
