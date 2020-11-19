@@ -44,6 +44,7 @@ namespace MolkFreeCalc
         private void UpdateNumberField()
         {
             NumberField.Text = cs.StackString();
+            VarField.Text = cs.VarString();
         }
         private void NumBtn(object sender, RoutedEventArgs e)
         {
